@@ -8,8 +8,11 @@ The Day in World News — Wednesday 18 November 2026. A dense front page
 that sums up the day's world news in one image: a masthead, three hero
 stories, a ten-panel grid, a world map with numbered pins and an "Also on"
 list, covering 31 stories from six continents, all reported on Wednesday
-18 November 2026. Every illustration is drawn procedurally with Pillow;
-no network, no external assets.
+18 November 2026. Every illustration is drawn procedurally with the standard library
+only; no network, no external assets, no third-party packages.
+Text is rendered from `fonts.bin`, a grayscale glyph atlas
+rasterized once from DejaVu (OFL) — the grader's plain
+python:3.13-slim image has no Pillow and no fonts of its own.
 
 ## Run it
 
@@ -18,7 +21,7 @@ python3 main.py
 # writes /output/entry.png (1024x1024, deterministic)
 ```
 
-Requires Python 3.13 and Pillow (`pip install pillow`).
+Requires Python 3.13 and nothing else (stdlib only).
 
 ---
 
