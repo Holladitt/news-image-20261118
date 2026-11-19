@@ -6,11 +6,14 @@
 
 The Day in World News — Wednesday 18 November 2026. A dense front page
 that sums up the day's world news in one image: a masthead, three hero
-stories, a ten-panel grid, a world map with numbered pins and an "Also on"
-list, covering 45 stories from six continents, all reported on Wednesday
-18 November 2026. v6 keeps the same winners-format front page as v5 and
-expands it to 45 stories: richer hero illustrations, a more accurate world
-map, and cleaner headlines that stay readable at thumbnail size.
+stories, a ten-panel grid, a cartoon world map with numbered pins and an
+"Also on" list, covering 42 stories from seven regions, all reported on
+Wednesday 18 November 2026. v11 keeps the reference page's front-page
+format: three heroes, a ten-panel grid, a cartoon world map (light-blue
+ocean, ocean and continent labels, Greenland and Antarctica, whales, a
+ship, a balloon, penguins) with numbered pins and colour-coded dots, and
+a three-column "Also on" list — with headlines that stay readable at
+thumbnail size.
 Every illustration is drawn procedurally with the standard library
 only; no network, no external assets, no third-party packages.
 Text is rendered from `fonts.bin`, a grayscale glyph atlas
